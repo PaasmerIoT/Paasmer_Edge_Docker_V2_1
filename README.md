@@ -6,6 +6,7 @@
 The **Paasmer Edge 2.1 (Paasmer-Edge-Docker-V2_1)** for SBC running any Linux flavoured OS, is a collection of Docker containers that enables you to do Analytics on edge and connect to the Paasmer IoT Platform. The **Paasmer Edge Versoin 2.1** also consists of Paasmer Python library and Python SDK to connect to the Paasmer Gateway. Python Library now simplifies the Subscribing and publishing and is capable to handle various feed types in a single function call. It also has a Generic framework of **Machine Learning Docker** which allows the user to perform Machine Learning feature to predict the result with a trained set of the database. 
 
 ## Paasmer Edge Analytics 
+
 **Paasmer Edge Analytics** is the key feature in Paasmer Edge which provides you to do analytics on the sensor data. Presently we are providing Filter, Aggregate, Average and Feed monitoring algorithms, where you can analyze your sensor data based on your Analytics condition. Support for more algorithms on Analytics can be added in the future.
 
 ### Analytics and Features
@@ -133,7 +134,7 @@ The Publish functions need the following as parameters,
 - Feedname
 - Feedvalue
 - Feedtype (The Feedtype is to be sensor or actuator)
-```
+
 
 You can use the Analytics in the following way,
 - Filter - provide the analytics condition like "function(x) x < 5.0"
