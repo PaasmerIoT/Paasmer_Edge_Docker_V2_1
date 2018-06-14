@@ -83,13 +83,13 @@ The syntax for calling Machine Learning is,
 test.ML_config(feedName = "mlfeedname",modelName = "modulename")
 ```
 
-** Note - A sample code is provided in `paasmer-python-sdk` directory **
+** Note - A sample code is provided in `PaasmerLibrary` directory **
 
 ## Getting started with Paasmer Python Library
 Here is a very simple example that connects to the Paasmer Gateway, subscribes and Publishes to Paasmer platform enabling the user to access and read the feeds.
 
 ### Importing Paasmer Library
-Open `paasmer-python-sdk` directory and start building the script.
+Open `PaasmerLibrary` directory and start building the script.
 
 ```
 from Paasmer import *
