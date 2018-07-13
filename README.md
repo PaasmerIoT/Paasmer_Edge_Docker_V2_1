@@ -17,9 +17,9 @@ The **Paasmer Edge 2.1 (Paasmer-Edge-Docker-V2_1)** for SBC running any Linux fl
 
 
 ## Paasmer Machine Learning
-** Paasmer Machine Learning** is another key feature in Paasmer-Docker which provides the user with a generic Machine Learning framework that allows the user to perform Machine Learning with his own dataset and train & test the Machine Learning module using few sets of commonly used Machine Learning algorithms. 
+**Paasmer Machine Learning** is another key feature in Paasmer-Docker which provides the user with a generic Machine Learning framework that allows the user to perform Machine Learning with his own dataset and train & test the Machine Learning module using few sets of commonly used Machine Learning algorithms. 
 
-* The Machine Learning in Paasmer is of two steps. Cloud initialization and Edge configuration. Please Find below for ** Cloud Initialization and Edge configuration **.
+* The Machine Learning in Paasmer is of two steps. Cloud initialization and Edge configuration. Please Find below for **Cloud Initialization and Edge configuration**.
 
 
 ## Paasmer Python Library
@@ -62,7 +62,7 @@ This script will install the required packages, Paasmer containers(Paasmer Featu
 * Wohooo! That's all. You device is now expected to be connected with Paasmer platform and you can manage the Device from Paasmer WEBUI
 
 #### Machine Learning Cloud Initialization
-*     After successfully activating the license, You can find `Machine Learning` tab on the Device page in Web UI. 
+* After successfully activating the license, You can find `Machine Learning` tab on the Device page in Web UI. 
 
 * Click on `Create` button, Enter a unique Model name for your model and that must be alphanumeric without any spaces[a-z A-Z 0-9].
 * Then Upload the sample dataset (any .csv format file) and click on `upload` button. 
@@ -83,7 +83,7 @@ The syntax for calling Machine Learning is,
 test.ML_config(feedName = "mlfeedname",modelName = "modulename")
 ```
 
-** Note - A sample code is provided in `PaasmerLibrary` directory **
+**Note - A sample code is provided in `PaasmerLibrary` directory**
 
 ## Getting started with Paasmer Python Library
 Here is a very simple example that connects to the Paasmer Gateway, subscribes and Publishes to Paasmer platform enabling the user to access and read the feeds.
@@ -157,7 +157,7 @@ The syntax for Publishing Analytics are,
     test.publish("feed7",feedValue = 22,analytics = "feedMonitoring")
 ```
 
-** Note - A sample code is provided in `paasmer-python-sdk` directory **
+**Note - A sample code is provided in `paasmer-python-sdk` directory**
 
 ## Support
 
