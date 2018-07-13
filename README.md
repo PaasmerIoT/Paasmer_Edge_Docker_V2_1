@@ -73,7 +73,7 @@ This script will install the required packages, Paasmer containers(Paasmer Featu
 * Now you can click on `Test` button and enter sample values and click `Submit` button. You can see the Predicted output in the text box below the buttons.
 * If you feel that the predicted value is accurate you can go ahead and proceed with the device side configuration. Else you can edit the algorithm in the model from the edit option given in the model page.
 
-** Note - Few algorithms supports only single Y-train values. X-train and Y-train fields cannot be same. **
+**Note - Few algorithms supports only single Y-train values. X-train and Y-train fields cannot be same. **
 
 #### Machine Learning Edge Configuration
 * Use the Python library at `PaasmerLibrary` directory for Machine Learning prediction and monitoring.
