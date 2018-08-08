@@ -45,7 +45,7 @@ The device creation can be done by two ways. Either from Web UI or from the Devi
 # Installation
 * Download the SDK or clone it using the command below.
 ```
-$ git clone github.com/PaasmerIoT/Paasmer_Edge_Docker_V2_1.git
+$ git clone https://github.com/PaasmerIoT/Paasmer_Edge_Docker_V2_1.git
 $ cd Paasmer_Edge_Docker_V2_1
 ```
 
