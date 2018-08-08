@@ -51,7 +51,7 @@ $ cd Paasmer_Edge_Docker_V2_1
 
 * Run the file using the command.
 ```
-$ sudo ./start.sh
+$ sudo ./paasmer2-1.run
 ```
 This script will install the required packages, Paasmer containers(Paasmer Features) and also build the dockers. 
 
